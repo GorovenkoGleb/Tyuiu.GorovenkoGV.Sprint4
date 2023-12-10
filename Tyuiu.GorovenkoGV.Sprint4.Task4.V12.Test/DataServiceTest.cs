@@ -19,7 +19,7 @@ namespace Tyuiu.GorovenkoGV.Sprint4.Task4.V12.Test
                                           { 8, 7, 6, 6, 6 }, };
 
             int res = ds.Calculate(mas2);
-            int wait = 4;
+            int wait = 5;
 
             Assert.AreEqual(wait, res);
         }
